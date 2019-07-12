@@ -71,6 +71,14 @@
             }
         },
         {
+            "Key": "3cf63a93-ccac-4d3b-b9fa-093bc6dfd3fe",
+            "Value": {
+                "id": "0ca48735-7404-4d99-8ad6-22e6c69f3f92",
+                "resourcePath": "sprites\\spr_FullWall\\spr_FullWall.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "4c0cc4cf-f584-497b-942f-810d72670cd2",
             "Value": {
                 "id": "c0535a32-c9c2-49b4-bc75-05db18e55a5f",
@@ -164,6 +172,14 @@
                 "id": "0985622d-637c-4962-a496-633aba081b40",
                 "resourcePath": "options\\linux\\options_linux.yy",
                 "resourceType": "GMLinuxOptions"
+            }
+        },
+        {
+            "Key": "b1019d2d-41b3-4239-9808-21ce4c5ac26c",
+            "Value": {
+                "id": "6ab590a8-c584-4e0a-874e-6472b07e8b58",
+                "resourcePath": "objects\\obj_FullWall\\obj_FullWall.yy",
+                "resourceType": "GMObject"
             }
         },
         {
