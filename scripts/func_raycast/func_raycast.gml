@@ -17,4 +17,5 @@ if(result) {
 	y2 = result.y;
 }
 
+draw_set_color(c_lime);
 draw_line(x1, y1, x2, y2);
