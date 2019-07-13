@@ -95,6 +95,14 @@
             }
         },
         {
+            "Key": "4dd5d2f1-7d41-402f-9b62-65673e2411d5",
+            "Value": {
+                "id": "b9497797-90da-43a4-9c4b-5f83cf9f9362",
+                "resourcePath": "objects\\obj_PuzzleBox\\obj_PuzzleBox.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "4de2af23-a002-4b74-a3c9-8222f0e09c2b",
             "Value": {
                 "id": "f2b40bbb-053f-4ecd-b79a-1bdb2a3e6334",
@@ -156,6 +164,14 @@
                 "id": "9da1b1c3-c935-41c3-8aa3-8cd78a573f35",
                 "resourcePath": "views\\7b0e0abc-c8e4-4641-b405-be1095b68757.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "7b8d6ded-b6f1-4f33-8cc5-16ea7d3257a5",
+            "Value": {
+                "id": "78bcaebd-115e-485b-9850-b78f602b0fc0",
+                "resourcePath": "sprites\\spr_PuzzleBolt\\spr_PuzzleBolt.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -244,6 +260,14 @@
                 "id": "09091ddf-f9a1-4da3-987d-8b5704f17cdc",
                 "resourcePath": "views\\f8a9237b-eb1f-4201-bf60-3e1d218edfcc.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "fc8e2618-5aa7-4511-a93c-01efc46f6cd6",
+            "Value": {
+                "id": "b61f827f-03f4-42f1-822f-f9cf781c55ad",
+                "resourcePath": "rooms\\room1\\room1.yy",
+                "resourceType": "GMRoom"
             }
         }
     ],
