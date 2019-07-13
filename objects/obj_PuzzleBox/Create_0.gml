@@ -1,7 +1,7 @@
 /// Randomize the puzzle
 // You can write your code in this editor
 
-
+randomize();
 
 
 areaWidth = room_width/2;
