@@ -111,11 +111,27 @@
             }
         },
         {
+            "Key": "4dd5d2f1-7d41-402f-9b62-65673e2411d5",
+            "Value": {
+                "id": "b9497797-90da-43a4-9c4b-5f83cf9f9362",
+                "resourcePath": "objects\\obj_PuzzleBox\\obj_PuzzleBox.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "4de2af23-a002-4b74-a3c9-8222f0e09c2b",
             "Value": {
                 "id": "f2b40bbb-053f-4ecd-b79a-1bdb2a3e6334",
                 "resourcePath": "rooms\\room0\\room0.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "559c15e4-d4e6-4c02-82fc-adc74e4b20b9",
+            "Value": {
+                "id": "43d0dc96-a99e-444a-830e-cdc80ac7298f",
+                "resourcePath": "objects\\obj_Character\\obj_Character.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -140,6 +156,14 @@
                 "id": "66a340dc-cf01-453d-a4e8-263f485f16e5",
                 "resourcePath": "sprites\\spr_CastsLightTest\\spr_CastsLightTest.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "6c5e2e51-f3b1-4b8d-9520-74fd4a203f97",
+            "Value": {
+                "id": "1882d470-c448-47a2-bd92-526da580d550",
+                "resourcePath": "scripts\\func_movementCheck\\func_movementCheck.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -172,6 +196,14 @@
                 "id": "9da1b1c3-c935-41c3-8aa3-8cd78a573f35",
                 "resourcePath": "views\\7b0e0abc-c8e4-4641-b405-be1095b68757.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "7b8d6ded-b6f1-4f33-8cc5-16ea7d3257a5",
+            "Value": {
+                "id": "78bcaebd-115e-485b-9850-b78f602b0fc0",
+                "resourcePath": "sprites\\spr_PuzzleBolt\\spr_PuzzleBolt.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -239,6 +271,14 @@
             }
         },
         {
+            "Key": "d0a31b45-7283-4ce8-96c9-8e409949b35b",
+            "Value": {
+                "id": "8542d8c8-357b-47de-a0ac-05a8ce547c52",
+                "resourcePath": "sprites\\spr_Player\\spr_Player.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "d3a27cf2-5240-431e-b03f-dad6713eb015",
             "Value": {
                 "id": "726735b9-fb3f-43b2-8616-d7b1514cabe8",
@@ -269,13 +309,25 @@
                 "resourcePath": "views\\f8a9237b-eb1f-4201-bf60-3e1d218edfcc.yy",
                 "resourceType": "GMFolder"
             }
+        },
+        {
+            "Key": "fc8e2618-5aa7-4511-a93c-01efc46f6cd6",
+            "Value": {
+                "id": "b61f827f-03f4-42f1-822f-f9cf781c55ad",
+                "resourcePath": "rooms\\room1\\room1.yy",
+                "resourceType": "GMRoom"
+            }
         }
     ],
     "script_order": [
         "eb9722ce-0ac2-4699-a559-fc8595b6ab75",
+<<<<<<< HEAD
         "1c518846-51b5-4a72-8b3c-63460b27c2f1",
         "9b9bc353-ab31-499d-affc-2196aa93398f",
         "162000e9-4f7e-436b-8865-6b0d43d34afc"
+=======
+        "6c5e2e51-f3b1-4b8d-9520-74fd4a203f97"
+>>>>>>> PuzzleBox
     ],
     "tutorial": ""
 }
