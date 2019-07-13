@@ -13,9 +13,8 @@ y2 = y1 - dsin(dir) * dist;
 result = collision_line(x1, y1, x2, y2, target, true, true);
 
 if(result) {
-	x2 = result.x;
-	y2 = result.y;
+	return result;	
 }
-
-draw_set_color(c_lime);
-draw_line(x1, y1, x2, y2);
+else {
+	return noone;	
+}

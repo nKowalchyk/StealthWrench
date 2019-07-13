@@ -47,6 +47,22 @@
             }
         },
         {
+            "Key": "162000e9-4f7e-436b-8865-6b0d43d34afc",
+            "Value": {
+                "id": "e26f0322-6da0-4f28-8312-801322376fe8",
+                "resourcePath": "scripts\\func_dist\\func_dist.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "1c518846-51b5-4a72-8b3c-63460b27c2f1",
+            "Value": {
+                "id": "c2430f6c-85a3-4663-a8e0-f078bb2af3f5",
+                "resourcePath": "scripts\\func_rayCollision\\func_rayCollision.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "1f83caa9-4140-4d78-bcf5-82491942acbc",
             "Value": {
                 "id": "83915e53-69a0-4327-aebf-f3de0c430ad2",
@@ -175,6 +191,14 @@
             }
         },
         {
+            "Key": "9b9bc353-ab31-499d-affc-2196aa93398f",
+            "Value": {
+                "id": "368352da-2360-4c7e-8aec-bfa31e9ee7b1",
+                "resourcePath": "scripts\\func_rayBoxCast\\func_rayBoxCast.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "a76b0e49-6527-4763-9392-7373e620b5c6",
             "Value": {
                 "id": "71bb8841-e146-45b5-b378-d2540d7fd551",
@@ -248,7 +272,10 @@
         }
     ],
     "script_order": [
-        "eb9722ce-0ac2-4699-a559-fc8595b6ab75"
+        "eb9722ce-0ac2-4699-a559-fc8595b6ab75",
+        "1c518846-51b5-4a72-8b3c-63460b27c2f1",
+        "9b9bc353-ab31-499d-affc-2196aa93398f",
+        "162000e9-4f7e-436b-8865-6b0d43d34afc"
     ],
     "tutorial": ""
 }

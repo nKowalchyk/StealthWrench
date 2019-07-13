@@ -1,7 +1,6 @@
-/// Draws Raycasts
-
-for(i = 0; i < numRays; i++) {
-	//for(j = 0; j < ds_list_size(global.visibleObjects); j++) {
-		func_raycast(x, y, 360 / 25 * i, viewDistance, obj_VisibleObject);	
-	//} 
+/// Update raycast
+for(i = 0; i < ds_list_size(rays); i++) {
+	rays[| i].originX = x;
+	rays[| i].originY = y;
+	rays[| i].dir = (360 / numRays) * i;
 }
