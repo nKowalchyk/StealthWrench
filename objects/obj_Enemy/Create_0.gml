@@ -18,6 +18,8 @@ targets[1, 1] = 768 / 2;
 attackTimerBase = 100;
 attackTimer = 0;
 
+f = 0 //Frames
+
 rays = ds_list_create();
 numRays = 10;
 for(i = 0; i < numRays; i++) {

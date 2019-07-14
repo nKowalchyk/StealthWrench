@@ -22,6 +22,7 @@ else if(state == State.Chase) {
 
 if(lastX != x || lastY != y) {
 	direction = point_direction(lastX, lastY, x, y);	
+	
 }
 
 waypointInst = instance_nearest(x, y, obj_Waypoint);
@@ -29,6 +30,12 @@ if(func_dist(x, y, waypointInst.x, waypointInst.y) < 5) {
 	targetPosX = waypointInst.targetX;
 	targetPosY = waypointInst.targetY;
 }
+f += 0.5
+if f > 600
+{
+	f = 0
+}
+
 //raytracing
 for(i = 0; i < ds_list_size(rays); i++) {
 	rays[| i].originX = x;

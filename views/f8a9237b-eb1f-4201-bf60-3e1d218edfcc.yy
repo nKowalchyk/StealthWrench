@@ -13,7 +13,13 @@
         "2f6ae888-22a3-42ac-b074-b22aa0244b53",
         "d0ef8d09-60f2-4a90-8402-98763a3f4d1d",
         "37e1736c-1028-421b-bd24-a4d20c5a99ca",
+<<<<<<< HEAD
         "43b57c89-c7c5-4c03-a4cd-3f0aea36f744"
+=======
+        "ca0acbe4-0cdb-447e-a05b-bf986398f5c9",
+        "756d59d8-f244-4897-be8b-83f0accf7d0c",
+        "8970d847-e4af-4ccf-a32f-e23c1c9f2bef"
+>>>>>>> origin/spriteImplementation
     ],
     "filterType": "GMSprite",
     "folderName": "sprites",
