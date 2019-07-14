@@ -40,6 +40,35 @@ for (i = 0; i < 3; i++){
 	}
 }
 
+//
+k = 0;
+for(i = 0; i<3; i++)
+{
+	switch(rules[k]){
+	case 0:
+		draw_sprite_ext(spr_Nothing, 0, threequaters, Yarray[i], 1, 1, 0, c_black, 1);
+		break;
+	case 1:
+		draw_sprite_ext(spr_Left, 0, threequaters, Yarray[i], 1, 1, 0, c_black, 1);
+		break;
+	case 2:
+		draw_sprite_ext(spr_Right, 0, threequaters, Yarray[i], 1, 1, 0, c_black, 1);
+		break;
+	}
+k++;
+}
+
+
+draw_sprite_ext(spr_White, 0, quater, Thalf, 1, 1, 0, c_red, 1);
+draw_sprite_ext(spr_White, 0, quater, halfY, 1, 1, 0, c_blue, 1);
+draw_sprite_ext(spr_White, 0, quater, Bhalf, 1, 1, 0, c_black, 1);
+
+draw_circle_color(Xarray[0], Yarray[0], 30, c_blue, c_green, 1);
+/*
+draw_sprite_ext(spr_Right, 0, threequaters, Thalf, 1, 1, 0, c_black, 1);
+draw_sprite_ext(spr_Left, 0, threequaters, halfY, 1, 1, 0, c_black, 1);
+draw_sprite_ext(spr_Nothing, 0, threequaters, Bhalf, 1, 1, 0, c_black, 1);
+*/
 
 /*
 draw_sprite_ext(spr_PuzzleBolt, 0, Lhalf, Thalf, 1, 1, 0, c_red, 1);
