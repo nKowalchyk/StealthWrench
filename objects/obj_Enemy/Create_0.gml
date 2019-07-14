@@ -15,6 +15,8 @@ targets[0, 1] = startPosY;
 targets[1, 0] = 1024 / 2;
 targets[1, 1] = 768 / 2;
 
+f = 0 //Frames
+
 attackTimerBase = 100;
 attackTimer = 0;
 

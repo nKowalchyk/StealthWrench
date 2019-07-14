@@ -1,7 +1,13 @@
 /// Initializng Variables
 // You can write your code in this editor
-spd = 12;
-range = 42
+
+func_depther()
+
+spd = 4;
+range = 100
+
+f = 0;
+currentSprite = spr_Player_Idle;
 
 modx = 0;
 mody = 0;

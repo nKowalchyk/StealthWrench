@@ -4,6 +4,13 @@
 lastX = x;
 lastY = y;
 
+f += 0.5
+if f > 600
+{
+	f = 0
+}
+
+
 //pathfinding
 if(state == State.Patrol) {
 	if(mp_potential_step(targetPosX, targetPosY, velocity, 1)) {
