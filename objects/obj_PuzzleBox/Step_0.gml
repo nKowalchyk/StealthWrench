@@ -28,7 +28,15 @@ if down
 }
 if "Z"
 {
-	//rotate left
+	//show_debug_message("Rotate left, mapping array");
+	//show_debug_message(mapping_array[currentx, currenty]);
+	if(mapping_array[currentx, currenty] > 0){
+		rotate[counting[currentx, currenty]] = -90;
+		
+		
+	}
+	
+	
 }
 if "X"
 {
