@@ -6,5 +6,5 @@ x2 = 0;
 y2 = 0;
 dir = 0;
 dist = 0;
-isColliding = false;
+collisionObj = noone;
 ptCollision = array_create(4);

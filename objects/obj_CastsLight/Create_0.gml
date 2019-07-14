@@ -1,8 +1,8 @@
 /// CastsLight obj init rays and set position
 
 rays = ds_list_create();
-numRays = 25;
-viewDistance = 100;
+numRays = 50;
+viewDistance = 200;
 
 for(i = 0; i < numRays; i++) {
 	inst = instance_create_depth(x, y, 0, obj_Ray);
