@@ -8,9 +8,14 @@ currenty = 0;
 color_rule = [];
 colorRule = [];
 rotate = [];
+answerboard = [];
+ansrotation = [];
+
 
 for(i=0;i<9;i++){
 	rotate[i] = 0;
+}
+for(i=0;i<3;i++){
 	colorRule[i] = 0;
 }
 
@@ -33,7 +38,7 @@ gameBoardY2 = areaY+(areaHeight*(1-borderWidth));
 for(i=0;i<3;i++){
 	for(j=0;j<3;j++){
 		color_rule[i, j] = 0;
-		
+		answerboard[i, j] = 0;
 	}
 }
 
@@ -81,12 +86,42 @@ for(i = 0; i < 3; i++){
 	for(j = 0; j < 3; j++){
 		
 		mapping_array[i, j] = slots[k];
+		for(h = 0; h < 3; h++){
+			
+			if(mapping_array[i, j] == h){
+				for(g = 0; g < 3; g++){
+				
+				if(colorRule[g] == 0){
+						answerboard[i, j] = 0;
+					}else if(colorRule[g] == 1){
+						answerboard[i, j] = 90;
+					}else if(colorRule[g] == 2){
+						answerboard[i, j] = -90;
+					}
+						
+				}			
+				
+			}
+			
+		}
 		counting[i, j] = k;
 		k++;
-		show_debug_message("Making mapping_array");
-		show_debug_message(mapping_array[i, j]);
+		
 	}
 }
 
 Xarray = [Lhalf, halfX, Rhalf];
 Yarray = [Thalf, halfY, Bhalf];
+/*
+for(i = 0; i < 3; i++){
+	for(j = 0; j < 3; j++){
+		if(){
+			
+		}else if(){
+			
+		}else if(){
+			
+		}
+	}
+}
+*/
