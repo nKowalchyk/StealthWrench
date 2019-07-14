@@ -1,1 +1,5 @@
-func_movementboard();
+
+func_movementCheck();
+
+
+

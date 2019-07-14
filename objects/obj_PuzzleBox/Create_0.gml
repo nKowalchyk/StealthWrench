@@ -5,14 +5,6 @@ randomize();
 
 currentx = 0;
 currenty = 0;
-color_rule = [];
-colorRule = [];
-rotate = [];
-
-for(i=0;i<9;i++){
-	rotate[i] = 0;
-	colorRule[i] = 0;
-}
 
 areaWidth = room_width/2;
 areaHeight = room_height/2;
@@ -26,16 +18,20 @@ gameBoardX2 = areaX+(areaWidth*(1-borderWidth));
 gameBoardY2 = areaY+(areaHeight*(1-borderWidth));
 
 //Color
-
+blueRule = irandom(2);
+redRule = irandom(2);
+blackRule = irandom(2);
 
 //Nut types
-
-for(i=0;i<3;i++){
-	for(j=0;j<3;j++){
-		color_rule[i, j] = 0;
-		
-	}
-}
+TL = irandom(4);
+TM = irandom(4);
+TR = irandom(4);
+CL = irandom(4);
+CM = irandom(4);
+CR = irandom(4);
+BL = irandom(4);
+BM = irandom(4);
+BR = irandom(4);
 
 //Nut placements
 halfX = areaX+(gameBoardX2 + gameBoardX)/2;
@@ -74,17 +70,13 @@ for (i = 0; i<9; i++)
 {
 	 slots[i] = irandom(3);
 }
-counting = [];
+
 mapping_array = [];
 k = 0;
 for(i = 0; i < 3; i++){
 	for(j = 0; j < 3; j++){
-		
-		mapping_array[i, j] = slots[k];
-		counting[i, j] = k;
+		mapping_array[i, j] = k;
 		k++;
-		show_debug_message("Making mapping_array");
-		show_debug_message(mapping_array[i, j]);
 	}
 }
 
