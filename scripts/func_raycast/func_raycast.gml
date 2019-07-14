@@ -16,5 +16,5 @@ if(result) {
 	return result;	
 }
 else {
-	return noone;	
+	return noone;
 }

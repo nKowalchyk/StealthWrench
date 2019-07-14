@@ -39,6 +39,14 @@
             }
         },
         {
+            "Key": "0c00a7d2-e62a-4f41-9717-aca2f7a119f1",
+            "Value": {
+                "id": "523e13eb-c65e-4c21-8647-269e185aa737",
+                "resourcePath": "objects\\obj_Waypoint\\obj_Waypoint.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "0db20533-18b2-4106-b46a-1054c7ecb796",
             "Value": {
                 "id": "62ac5282-45b3-4669-9dc0-9242da691349",
@@ -127,6 +135,14 @@
             }
         },
         {
+            "Key": "43b57c89-c7c5-4c03-a4cd-3f0aea36f744",
+            "Value": {
+                "id": "0a93418f-0c64-49b7-9d9a-1d1131c5ec34",
+                "resourcePath": "sprites\\spr_Projectile\\spr_Projectile.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "4c0cc4cf-f584-497b-942f-810d72670cd2",
             "Value": {
                 "id": "c0535a32-c9c2-49b4-bc75-05db18e55a5f",
@@ -195,6 +211,14 @@
             "Value": {
                 "id": "1882d470-c448-47a2-bd92-526da580d550",
                 "resourcePath": "scripts\\func_movementCheck\\func_movementCheck.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "6cd15668-2650-4a5e-9301-e3db4ccce61f",
+            "Value": {
+                "id": "b7818124-6e82-4f60-acfa-c5a0abb8d93c",
+                "resourcePath": "scripts\\func_collision_line_first\\func_collision_line_first.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -359,6 +383,14 @@
             }
         },
         {
+            "Key": "f6a682c8-3dd6-4b49-8701-cb1629d0eed9",
+            "Value": {
+                "id": "fbf2b606-97cf-4b8d-9363-fcdc3d1ddd27",
+                "resourcePath": "objects\\obj_Projectile\\obj_Projectile.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "f8a9237b-eb1f-4201-bf60-3e1d218edfcc",
             "Value": {
                 "id": "09091ddf-f9a1-4da3-987d-8b5704f17cdc",
@@ -380,7 +412,8 @@
         "1c518846-51b5-4a72-8b3c-63460b27c2f1",
         "9b9bc353-ab31-499d-affc-2196aa93398f",
         "162000e9-4f7e-436b-8865-6b0d43d34afc",
-        "6c5e2e51-f3b1-4b8d-9520-74fd4a203f97"
+        "6c5e2e51-f3b1-4b8d-9520-74fd4a203f97",
+        "6cd15668-2650-4a5e-9301-e3db4ccce61f"
     ],
     "tutorial": ""
 }

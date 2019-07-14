@@ -9,6 +9,14 @@ targetPosY = 768 / 2;
 velocity = 2;
 viewDistance = 200;
 viewRange = 60;
+targets = [];
+targets[0, 0] = startPosX;
+targets[0, 1] = startPosY;
+targets[1, 0] = 1024 / 2;
+targets[1, 1] = 768 / 2;
+
+attackTimerBase = 100;
+attackTimer = 0;
 
 rays = ds_list_create();
 numRays = 10;
@@ -17,3 +25,9 @@ for(i = 0; i < numRays; i++) {
 	inst.dist = viewDistance;
 	ds_list_add(rays, inst);
 }
+
+enum State {
+	Patrol, Chase, Alarm, Alert
+};
+
+state = State.Patrol;
