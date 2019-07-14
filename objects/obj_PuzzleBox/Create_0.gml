@@ -5,6 +5,19 @@ randomize();
 
 currentx = 0;
 currenty = 0;
+color_rule = [];
+colorRule = [];
+rotate = [];
+answerboard = [];
+ansrotation = [];
+
+
+for(i=0;i<9;i++){
+	rotate[i] = 0;
+}
+for(i=0;i<3;i++){
+	colorRule[i] = 0;
+}
 
 areaWidth = room_width/2;
 areaHeight = room_height/2;
@@ -23,15 +36,13 @@ redRule = irandom(2);
 blackRule = irandom(2);
 
 //Nut types
-TL = irandom(4);
-TM = irandom(4);
-TR = irandom(4);
-CL = irandom(4);
-CM = irandom(4);
-CR = irandom(4);
-BL = irandom(4);
-BM = irandom(4);
-BR = irandom(4);
+
+for(i=0;i<3;i++){
+	for(j=0;j<3;j++){
+		color_rule[i, j] = 0;
+		answerboard[i, j] = 0;
+	}
+}
 
 //Nut placements
 halfX = areaX+(gameBoardX2 + gameBoardX)/2;
@@ -75,10 +86,44 @@ mapping_array = [];
 k = 0;
 for(i = 0; i < 3; i++){
 	for(j = 0; j < 3; j++){
-		mapping_array[i, j] = k;
+		
+		mapping_array[i, j] = slots[k];
+		for(h = 0; h < 3; h++){
+			
+			if(mapping_array[i, j] == h){
+				for(g = 0; g < 3; g++){
+				
+				if(colorRule[g] == 0){
+						answerboard[i, j] = 0;
+					}else if(colorRule[g] == 1){
+						answerboard[i, j] = 90;
+					}else if(colorRule[g] == 2){
+						answerboard[i, j] = -90;
+					}
+						
+				}			
+				
+			}
+			
+		}
+		counting[i, j] = k;
 		k++;
+		
 	}
 }
 
 Xarray = [Lhalf, halfX, Rhalf];
 Yarray = [Thalf, halfY, Bhalf];
+/*
+for(i = 0; i < 3; i++){
+	for(j = 0; j < 3; j++){
+		if(){
+			
+		}else if(){
+			
+		}else if(){
+			
+		}
+	}
+}
+*/
