@@ -21,9 +21,33 @@ if down
 }
 lastX = x
 lastY = y
-x+=modx
-y+=mody
+if place_free(x+modx, y)
+{
+	x+=modx
+}
+if place_free(x, y+mody)
+{
+	y+=mody
+}
+
 if (lastX != x ) or (lastY != y)
 {
-	image_angle = point_direction(lastX, lastY, x, y)
+	currentSprite = spr_Player_Walk
+	direction = point_direction(lastX, lastY, x, y)
+}
+else
+{
+	currentSprite  = spr_Player_Idle
+}
+
+if primary
+{
+	
+	target = instance_nearest(x, y, obj_door)	
+	show_debug_message(point_distance(target.x, target.y, x, y))
+	if point_distance(target.x, target.y, x, y) < range
+	{
+		target.open = !target.open;
+		
+	}
 }

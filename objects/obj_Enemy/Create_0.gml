@@ -10,6 +10,8 @@ velocity = 2;
 viewDistance = 200;
 viewRange = 60;
 
+f = 0 //Frames
+
 rays = ds_list_create();
 numRays = 10;
 for(i = 0; i < numRays; i++) {

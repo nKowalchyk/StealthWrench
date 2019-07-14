@@ -18,9 +18,14 @@ if(mp_potential_step(targetPosX, targetPosY, velocity, 1)) {
 
 if(lastX != x || lastY != y) {
 	direction = point_direction(lastX, lastY, x, y);	
+	
 }
 
-show_debug_message(direction);
+f += 0.5
+if f > 600
+{
+	f = 0
+}
 
 //raytracing
 for(i = 0; i < ds_list_size(rays); i++) {
