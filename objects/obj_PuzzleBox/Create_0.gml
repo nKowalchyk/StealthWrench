@@ -80,7 +80,10 @@ for (i = 0; i<9; i++)
 	 slots[i] = irandom(3);
 }
 
-
+show_debug_message("SLOTS MACHINE");
+for(i=0;i<9;i++){
+	show_debug_message(slots[i]);
+}
 counting = [];
 mapping_array = [];
 k = 0;
@@ -90,6 +93,11 @@ for(i = 0; i < 3; i++){
 		
 		mapping_array[i, j] = slots[k];		
 		counting[i, j] = k;
+		
+		if(slots[k] == 0){
+			k++;
+			continue;
+		}
 		
 		if rules[max(slots[k]-1, 0)] == 2
 		{
@@ -107,6 +115,7 @@ for(i = 0; i < 3; i++){
 		k++;
 	}
 }
+/*
 show_debug_message("Mapping Board");
 for(i=0;i<3;i++){
 	for(j=0;j<3;j++){
@@ -119,7 +128,7 @@ for(i=0;i<3;i++){
 	for(j=0;j<3;j++){
 		show_debug_message(answerboard[i, j]);
 	}
-}
+}*/
 /*
 		for(h = 0; h < 3; h++){
 			if(mapping_array[i, j] == h){
