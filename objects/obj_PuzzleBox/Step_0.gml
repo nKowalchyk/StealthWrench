@@ -4,41 +4,51 @@
 if left
 {
 	if((currentx - 1) >= 0){
-		currentx = currentx - 1;
+		currentx--;
 	}
 	
 }
 if right
 {
 	if((currentx + 1) <= 2){
-		currentx = currentx - 1;	
+		currentx++;	
 	}	
 }
 if up
 {
 	if((currenty - 1) >= 0){
-		currentx = currentx - 1;	
+		currenty--;	
 	}	
 }
 if down
 {
-	if((currentx + 1) <= 2){
-		currentx = currentx - 1;	
+	if((currenty + 1) <= 2){
+		currenty++;	
 	}
 }
-if "Z"
+if primary //rotate left
 {
 	//show_debug_message("Rotate left, mapping array");
 	//show_debug_message(mapping_array[currentx, currenty]);
 	if(mapping_array[currentx, currenty] > 0){
 		rotate[counting[currentx, currenty]] = -90;
-		
+		currentboard[currentx, currenty] = -90;
 		
 	}
 	
 	
 }
-if "X"
+if secondary //rotate right
 {
-	//rotate right
+	
+	if(mapping_array[currentx, currenty] > 0){
+		rotate[counting[currentx, currenty]] = 90;
+		currentboard[currentx, currenty] = 90;
+	}
+	
 }
+
+
+
+
+

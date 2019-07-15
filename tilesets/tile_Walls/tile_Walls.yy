@@ -47,7 +47,12 @@
             21,
             22,
             23,
-            24
+            24,
+            25,
+            26,
+            27,
+            28,
+            29
         ],
         "SerialiseFrameCount": 1
     },
@@ -55,7 +60,7 @@
         
     ],
     "tile_animation_speed": 15,
-    "tile_count": 25,
+    "tile_count": 30,
     "tileheight": 64,
     "tilehsep": 0,
     "tilevsep": 0,

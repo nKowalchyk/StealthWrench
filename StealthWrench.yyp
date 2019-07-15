@@ -79,6 +79,22 @@
             }
         },
         {
+            "Key": "17d3467d-2bee-4ee7-bd5d-cc65335bc968",
+            "Value": {
+                "id": "d324c17c-ae44-47d4-adb6-5c9398f57105",
+                "resourcePath": "sprites\\spr_BlueKeyCard\\spr_BlueKeyCard.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "1ac5150f-522d-43bf-af58-7a0e924a0aa3",
+            "Value": {
+                "id": "b0bb3114-c950-4b1a-b0fe-eb1e96381de2",
+                "resourcePath": "objects\\obj_blueKeyCard\\obj_blueKeyCard.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "1c518846-51b5-4a72-8b3c-63460b27c2f1",
             "Value": {
                 "id": "c2430f6c-85a3-4663-a8e0-f078bb2af3f5",
@@ -92,6 +108,30 @@
                 "id": "83915e53-69a0-4327-aebf-f3de0c430ad2",
                 "resourcePath": "views\\1f83caa9-4140-4d78-bcf5-82491942acbc.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "273096d2-4059-446c-b4d7-9b5081f08036",
+            "Value": {
+                "id": "2a913a31-be78-46fc-8edf-6d946c3893c8",
+                "resourcePath": "objects\\obj_RedDoor\\obj_RedDoor.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "2abbec3f-c343-4750-89e7-4e6e25a7944d",
+            "Value": {
+                "id": "a80f2605-09db-4738-874b-1437f097d49e",
+                "resourcePath": "objects\\obj_BoltPole\\obj_BoltPole.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "2d0fd90c-77ec-4305-b138-ba1a96d3e4dd",
+            "Value": {
+                "id": "8a1584b7-0145-41a9-8022-1b53eeed04fa",
+                "resourcePath": "sprites\\spr_PuzzleBox\\spr_PuzzleBox.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -143,6 +183,14 @@
             }
         },
         {
+            "Key": "3e1ad08a-64e6-4fb9-84a2-0201aa5e9130",
+            "Value": {
+                "id": "c8ab169e-0999-485b-a288-9b1b0031f855",
+                "resourcePath": "sprites\\spr_BoltPole\\spr_BoltPole.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "3f853c1d-31b5-475c-9f15-fda4eb945991",
             "Value": {
                 "id": "f4e41258-4c45-4bb4-8c93-0be7452efd5d",
@@ -155,6 +203,22 @@
             "Value": {
                 "id": "0a93418f-0c64-49b7-9d9a-1d1131c5ec34",
                 "resourcePath": "sprites\\spr_Projectile\\spr_Projectile.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "43fb0a11-486c-4022-9df1-e6e602cebe79",
+            "Value": {
+                "id": "255b8ea2-581d-4e6b-bf5a-2d2a6260277c",
+                "resourcePath": "sprites\\spr_BlackDoor\\spr_BlackDoor.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "4698f7ae-e390-4225-86f0-307feb0cba84",
+            "Value": {
+                "id": "f06678ed-87fe-4473-9946-d18be836f44d",
+                "resourcePath": "sprites\\spr_BlueDoor\\spr_BlueDoor.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -178,7 +242,7 @@
             "Key": "4dd5d2f1-7d41-402f-9b62-65673e2411d5",
             "Value": {
                 "id": "b9497797-90da-43a4-9c4b-5f83cf9f9362",
-                "resourcePath": "objects\\obj_PuzzleBox\\obj_PuzzleBox.yy",
+                "resourcePath": "objects\\obj_PuzzleBoxOld\\obj_PuzzleBoxOld.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -204,6 +268,14 @@
                 "id": "43d0dc96-a99e-444a-830e-cdc80ac7298f",
                 "resourcePath": "objects\\obj_Character_Old\\obj_Character_Old.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "5c41a9bd-13bc-49b2-a46d-ebd5ca6f3a94",
+            "Value": {
+                "id": "3f484f38-8cb4-4c37-a456-c5d04bfeeca3",
+                "resourcePath": "scripts\\func_movementboard\\func_movementboard.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -255,6 +327,14 @@
             }
         },
         {
+            "Key": "6e64cab8-a41e-47d7-b244-1433eb7d0dd5",
+            "Value": {
+                "id": "8f93c5d4-679e-4e43-b312-443c713401d8",
+                "resourcePath": "objects\\obj_redKeyCard\\obj_redKeyCard.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "6ee8edaf-dcd9-4ae9-abca-63f7ad3bdcd6",
             "Value": {
                 "id": "5db466a2-79f0-45bd-9520-b67b4d4ee25d",
@@ -276,6 +356,22 @@
                 "id": "29e234ab-e039-4e76-b7f2-d50cefbb8079",
                 "resourcePath": "sprites\\spr_Left\\spr_Left.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "752daaa7-6810-47d3-85dd-0ba9704272c3",
+            "Value": {
+                "id": "c8a873dd-a5ec-4a63-b32f-c8951fb498f6",
+                "resourcePath": "objects\\obj_Exit\\obj_Exit.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "75589cc1-c1ec-4c16-87fa-ed73fb7caab5",
+            "Value": {
+                "id": "2b373852-735e-4022-bb92-93c641dfe165",
+                "resourcePath": "objects\\obj_BlueDoor\\obj_BlueDoor.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -319,10 +415,26 @@
             }
         },
         {
+            "Key": "7f7dec5c-9c14-4337-b4c9-ab0c914f9cc0",
+            "Value": {
+                "id": "88f2890d-1de5-468d-8060-5bda68a825bf",
+                "resourcePath": "sprites\\spr_RedKeyCard\\spr_RedKeyCard.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "81981f2b-28b6-4521-b1cc-ab2b479cbb03",
             "Value": {
                 "id": "39645b17-e71b-4af2-a2d2-e03a6dc38790",
                 "resourcePath": "sprites\\spr_Light\\spr_Light.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "8528da3a-10e2-484e-9759-54e036d6e949",
+            "Value": {
+                "id": "0a299ef0-4860-4ddb-a11a-07a71a4370da",
+                "resourcePath": "sprites\\spr_Elevator\\spr_Elevator.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -388,6 +500,14 @@
                 "id": "0985622d-637c-4962-a496-633aba081b40",
                 "resourcePath": "options\\linux\\options_linux.yy",
                 "resourceType": "GMLinuxOptions"
+            }
+        },
+        {
+            "Key": "a98e421c-8ae7-47ca-8c31-1349f5556f44",
+            "Value": {
+                "id": "17a6a3c3-f21f-43df-9ec6-5841448a5b8c",
+                "resourcePath": "sprites\\spr_PuzzleCircle\\spr_PuzzleCircle.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -487,6 +607,14 @@
             }
         },
         {
+            "Key": "d49f0258-80d9-4b82-917a-f277ad60e65a",
+            "Value": {
+                "id": "1a9808b2-4b7b-48d8-918c-48312258e411",
+                "resourcePath": "objects\\obj_PuzzleBox\\obj_PuzzleBox.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "e016afaf-019b-464c-9057-45e4558990df",
             "Value": {
                 "id": "1930db43-21e3-4b0d-93ab-261f9dd4288d",
@@ -527,11 +655,51 @@
             }
         },
         {
+            "Key": "fb7a2f48-f968-4c4e-90a0-f6a99a5198c2",
+            "Value": {
+                "id": "30b0bedd-9b44-46f8-9694-a9ebb40333f2",
+                "resourcePath": "rooms\\LockDoorTest\\LockDoorTest.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "fc25384b-0a5e-4dc6-8322-ecd4eb35d127",
+            "Value": {
+                "id": "d71c2acd-3a22-4f29-9f07-caf2b9f61361",
+                "resourcePath": "sprites\\spr_RedDoor\\spr_RedDoor.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "fc8e2618-5aa7-4511-a93c-01efc46f6cd6",
             "Value": {
                 "id": "b61f827f-03f4-42f1-822f-f9cf781c55ad",
                 "resourcePath": "rooms\\room1\\room1.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "fd3905a5-54ff-4c1f-94ac-0437f5f49fd2",
+            "Value": {
+                "id": "e68c9e23-7db5-4fdc-ba6a-22295c35759c",
+                "resourcePath": "objects\\obj_PuzzleBoxSpawn\\obj_PuzzleBoxSpawn.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "fd4e37e9-91a4-4ccf-b010-c41559eda858",
+            "Value": {
+                "id": "3e283953-e146-43a8-8bdb-d373a1cb8e15",
+                "resourcePath": "objects\\obj_BlackDoor\\obj_BlackDoor.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "ff95184d-ad87-4530-8ad9-b8efa8a1f73d",
+            "Value": {
+                "id": "edcef047-5aca-4207-ab1d-b32fdb2d6dc8",
+                "resourcePath": "sprites\\spr_LoadBolt\\spr_LoadBolt.yy",
+                "resourceType": "GMSprite"
             }
         }
     ],
@@ -542,7 +710,8 @@
         "162000e9-4f7e-436b-8865-6b0d43d34afc",
         "6c5e2e51-f3b1-4b8d-9520-74fd4a203f97",
         "6cd15668-2650-4a5e-9301-e3db4ccce61f",
-        "d305c9f6-cf9a-4f12-a515-c58c612846d4"
+        "d305c9f6-cf9a-4f12-a515-c58c612846d4",
+        "5c41a9bd-13bc-49b2-a46d-ebd5ca6f3a94"
     ],
     "tutorial": ""
 }

@@ -26,7 +26,7 @@ else if(state == State.Chase) {
 		attackTimer = attackTimerBase;
 	}
 	else {
-		mp_potential_step_object(playerInst.x, playerInst.y, velocity, obj_Character);
+		mp_potential_step(playerInst.x, playerInst.y, velocity, 1);
 	}
 	
 	if(searchTimer <= 0) {

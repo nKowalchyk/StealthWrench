@@ -9,5 +9,7 @@ range = 100
 f = 0;
 currentSprite = spr_Player_Idle;
 
+global.focus = false;
+
 modx = 0;
 mody = 0;

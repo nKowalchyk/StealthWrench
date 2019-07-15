@@ -21,15 +21,17 @@ if down
 }
 lastX = x
 lastY = y
-if place_free(x+modx, y)
+if global.focus == false
 {
-	x+=modx
+	if place_free(x+modx, y)
+	{
+		x+=modx
+	}
+	if place_free(x, y+mody)
+	{
+		y+=mody
+	}
 }
-if place_free(x, y+mody)
-{
-	y+=mody
-}
-
 if (lastX != x ) or (lastY != y)
 {
 	currentSprite = spr_Player_Walk
@@ -40,7 +42,7 @@ else
 	currentSprite  = spr_Player_Idle
 }
 
-if primary
+if primary and not global.focus
 {
 	
 	target = instance_nearest(x, y, obj_door)	
@@ -59,6 +61,16 @@ if primary
 		if point_distance(target.x, target.y, x, y) < range
 		{
 			target.progress++
+		
+		}
+	}
+	
+	target = instance_nearest(x, y, obj_PuzzleBoxSpawn)	
+	if target != noone
+	{
+		if point_distance(target.x, target.y, x, y) < range
+		{
+			target.spawn = true;
 		
 		}
 	}
