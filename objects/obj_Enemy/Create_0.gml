@@ -10,6 +10,9 @@ velocity = 2;
 viewDistance = 250;
 viewRange = 60;
 pauseTime = 0;
+searchRadius = 200;
+searchTimeBase = 150;
+searchTimer = 0;
 
 f = 0 //Frames
 

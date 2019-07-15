@@ -9,7 +9,7 @@
     //      object      which objects to look for (or all), real
     //      prec        if true, use precise collision checking, bool
     //      notme       if true, ignore the calling instance, bool
-    //
+    //	Credit: https://www.gmlscripts.com/script/collision_line_first
     /// GMLscripts.com/license
     {
         var ox,oy,dx,dy,object,prec,notme,sx,sy,inst,i;

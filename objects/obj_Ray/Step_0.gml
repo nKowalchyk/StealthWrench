@@ -5,6 +5,8 @@ collisionObj = func_collision_line_first(originX, originY, x2, y2, obj_VisibleOb
  
 if(collisionObj != noone) {
 	ptCollision = func_rayBoxCast(originX, originY, x2, y2, collisionObj.x, collisionObj.y, collisionObj.sprite_width, collisionObj.sprite_height);
-	x2 = ptCollision[0];
-	y2 = ptCollision[1];
+	if(ptCollision != noone) {
+		x2 = ptCollision[0];
+		y2 = ptCollision[1];	
+	}
 }

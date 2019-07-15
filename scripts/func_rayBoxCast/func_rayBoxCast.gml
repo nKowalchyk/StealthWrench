@@ -10,7 +10,7 @@ width = argument6;
 height = argument7;
 
 var result;
-var dist;
+var dist = noone;
 var closestCollision = 10000;
 var index = 0;
 
@@ -25,7 +25,7 @@ dist[2] = func_dist(x1, y1, topCollision[0], topCollision[1]);
 dist[3] = func_dist(x1, y1, bottomCollision[0], bottomCollision[1]);
 
 for(i = 0; i < array_length_1d(dist); i++) {
-	if(dist[i] < closestCollision) {
+	if(dist[i] < closestCollision && dist[i] != 0) {
 		closestCollision = dist[i];
 		index = i;
 	}

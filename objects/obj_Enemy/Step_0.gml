@@ -18,13 +18,20 @@ if(state == State.Patrol) {
 	}	
 }
 else if(state == State.Chase) {
-	if(attackTimer <= 0) {
+	searchTimer--;
+	playerInst = instance_nearest(x, y, obj_Character);
+	if(attackTimer <= 0 && point_distance(x,y , playerInst.x, playerInst.y) < searchRadius) {
 		inst = instance_create_depth(x, y, 0, obj_Projectile);
 		inst.dir = direction;
 		attackTimer = attackTimerBase;
 	}
-
-	state = State.Patrol;
+	else {
+		mp_potential_step_object(playerInst.x, playerInst.y, velocity, obj_Character);
+	}
+	
+	if(searchTimer <= 0) {
+		state = State.Patrol;	
+	}
 }
 else if(state == State.Stop) {
 	if(pauseTime >= 0) {
@@ -53,7 +60,8 @@ for(i = 0; i < ds_list_size(rays); i++) {
 	rays[| i].dir = (direction - viewRange / 2) + (viewRange / numRays) * i;
 	if(rays[| i].collisionObj != noone) {
 		if(rays[| i].collisionObj.object_index == obj_Character) {
-			state = State.Chase;	
+			state = State.Chase;
+			searchTimer = searchTimeBase;
 		}	
 	}
 }

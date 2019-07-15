@@ -24,7 +24,7 @@ draw_rectangle(0, 0, _cw, _ch, 0);
 gpu_set_blendmode(bm_subtract);
 with (obj_lightParent)
     {
-		show_debug_message("lighting");
+		
     }
 gpu_set_blendmode(bm_normal);
 draw_set_alpha(1);
