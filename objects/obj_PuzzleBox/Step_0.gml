@@ -32,7 +32,7 @@ if "Z"
 	//show_debug_message(mapping_array[currentx, currenty]);
 	if(mapping_array[currentx, currenty] > 0){
 		rotate[counting[currentx, currenty]] = -90;
-		
+		currentboard[currentx, currenty] = -90;
 		
 	}
 	
@@ -40,5 +40,15 @@ if "Z"
 }
 if "X"
 {
-	//rotate right
+	
+	if(mapping_array[currentx, currenty] > 0){
+		rotate[counting[currentx, currenty]] = 90;
+		currentboard[currentx, currenty] = 90;
+	}
+	
 }
+
+
+
+
+
