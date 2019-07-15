@@ -9,14 +9,13 @@ color_rule = [];
 colorRule = [];
 rotate = [];
 answerboard = [];
-ansrotation = [];
-
+currentboard = [];
 
 for(i=0;i<9;i++){
 	rotate[i] = 0;
 }
 for(i=0;i<3;i++){
-	colorRule[i] = 0;
+	colorRule[i] = 0;	
 }
 
 areaWidth = room_width/2;
@@ -39,6 +38,7 @@ for(i=0;i<3;i++){
 	for(j=0;j<3;j++){
 		color_rule[i, j] = 0;
 		answerboard[i, j] = 0;
+		currentboard[i, j] = 0;
 	}
 }
 
@@ -79,49 +79,62 @@ for (i = 0; i<9; i++)
 {
 	 slots[i] = irandom(3);
 }
+
+
 counting = [];
 mapping_array = [];
 k = 0;
+
 for(i = 0; i < 3; i++){
 	for(j = 0; j < 3; j++){
 		
-		mapping_array[i, j] = slots[k];
-		for(h = 0; h < 3; h++){
+		mapping_array[i, j] = slots[k];		
+		counting[i, j] = k;
+		
+		if rules[max(slots[k]-1, 0)] == 2
+		{
+			rules[max(slots[k]-1, 0)] = -1	
+		}
+
+		answerboard[i, j] = -90*rules[max(slots[k]-1, 0)]
+		
 			
+		if rules[max(slots[k]-1, 0)] == -1
+		{
+			rules[max(slots[k]-1, 0)] = 2	
+		}
+		
+		k++;
+	}
+}
+show_debug_message("Mapping Board");
+for(i=0;i<3;i++){
+	for(j=0;j<3;j++){
+		show_debug_message(mapping_array[i, j]);
+	}
+}
+
+show_debug_message("Answer Board");
+for(i=0;i<3;i++){
+	for(j=0;j<3;j++){
+		show_debug_message(answerboard[i, j]);
+	}
+}
+/*
+		for(h = 0; h < 3; h++){
 			if(mapping_array[i, j] == h){
 				for(g = 0; g < 3; g++){
-				
-				if(colorRule[g] == 0){
+					if(colorRule[g] == 0){
 						answerboard[i, j] = 0;
 					}else if(colorRule[g] == 1){
 						answerboard[i, j] = 90;
 					}else if(colorRule[g] == 2){
 						answerboard[i, j] = -90;
 					}
-						
-				}			
-				
-			}
-			
+				}				
+			}			
 		}
-		counting[i, j] = k;
-		k++;
-		
-	}
-}
+*/
 
 Xarray = [Lhalf, halfX, Rhalf];
 Yarray = [Thalf, halfY, Bhalf];
-/*
-for(i = 0; i < 3; i++){
-	for(j = 0; j < 3; j++){
-		if(){
-			
-		}else if(){
-			
-		}else if(){
-			
-		}
-	}
-}
-*/

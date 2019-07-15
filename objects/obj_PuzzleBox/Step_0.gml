@@ -32,7 +32,7 @@ if primary //rotate left
 	//show_debug_message(mapping_array[currentx, currenty]);
 	if(mapping_array[currentx, currenty] > 0){
 		rotate[counting[currentx, currenty]] = -90;
-		
+		currentboard[currentx, currenty] = -90;
 		
 	}
 	
@@ -42,24 +42,13 @@ if secondary //rotate right
 {
 	
 	if(mapping_array[currentx, currenty] > 0){
-		rotate[counting[currentx, currenty]] = 90;			
+		rotate[counting[currentx, currenty]] = 90;
+		currentboard[currentx, currenty] = 90;
 	}
 	
 }
 
 
-/*
-for(i=0;i<2;i++;){
-			for(j=0;j<2;j++){
-				if( ( (mapping_array[currentx, currenty] - 1) == 1) && (colorRule[i] == 1))
-				{
-					if(j == 1)
-					rotate[counting[currentx, currenty]] = -90;
-				}
-				else if( ( (mapping_array[currentx, currenty] - 1) == i) && ( (colorRule[i] == 0) || (colorRule[i] == 2)))
-				{
-					//raise alarm and leave game
-				}
-			}
-		}
-*/
+
+
+
