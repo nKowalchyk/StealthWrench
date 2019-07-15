@@ -2,18 +2,13 @@
 // You can write your code in this editor
 startPosX = x;
 startPosY = y;
-endPosX = 1024 / 2;
-endPosY = 768 / 2;
-targetPosX = 1024 / 2;
-targetPosY = 768 / 2;
+endPosX = x;
+endPosY = y;
+targetPosX = x;
+targetPosY = y;
 velocity = 2;
-viewDistance = 200;
+viewDistance = 250;
 viewRange = 60;
-targets = [];
-targets[0, 0] = startPosX;
-targets[0, 1] = startPosY;
-targets[1, 0] = 1024 / 2;
-targets[1, 1] = 768 / 2;
 pauseTime = 0;
 
 f = 0 //Frames

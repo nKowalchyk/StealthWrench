@@ -44,10 +44,22 @@ if primary
 {
 	
 	target = instance_nearest(x, y, obj_door)	
-	show_debug_message(point_distance(target.x, target.y, x, y))
-	if point_distance(target.x, target.y, x, y) < range
+	if target != noone
 	{
-		target.open = !target.open;
+		if point_distance(target.x, target.y, x, y) < range
+		{
+			target.open = !target.open;
 		
+		}
+	}
+	target = instance_nearest(x, y, obj_GoalScrew)
+	
+	if (target != noone)
+	{
+		if point_distance(target.x, target.y, x, y) < range
+		{
+			target.progress++
+		
+		}
 	}
 }
