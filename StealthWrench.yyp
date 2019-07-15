@@ -58,7 +58,7 @@
             "Key": "0dc00e7a-ea8b-47ef-aee4-b4ff780df928",
             "Value": {
                 "id": "515a8633-2203-43d2-bd33-fb8766c8c272",
-                "resourcePath": "objects\\obj_Enemy1\\obj_Enemy1.yy",
+                "resourcePath": "objects\\obj_EnemyOld\\obj_EnemyOld.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -140,6 +140,14 @@
                 "id": "0ca48735-7404-4d99-8ad6-22e6c69f3f92",
                 "resourcePath": "sprites\\spr_FullWall\\spr_FullWall.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "3f853c1d-31b5-475c-9f15-fda4eb945991",
+            "Value": {
+                "id": "f4e41258-4c45-4bb4-8c93-0be7452efd5d",
+                "resourcePath": "objects\\obj_GoalScrew\\obj_GoalScrew.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -308,6 +316,14 @@
                 "id": "87a9a480-0b93-4e32-83e1-d10cdebe0990",
                 "resourcePath": "sprites\\spr_Door\\spr_Door.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "8ad834f8-0804-4dcf-b1cb-f30687d62389",
+            "Value": {
+                "id": "95a6b308-2f64-41b0-b3c7-4abf497a16e0",
+                "resourcePath": "rooms\\TestRoom\\TestRoom.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
