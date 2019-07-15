@@ -14,6 +14,7 @@ targets[0, 0] = startPosX;
 targets[0, 1] = startPosY;
 targets[1, 0] = 1024 / 2;
 targets[1, 1] = 768 / 2;
+pauseTime = 0;
 
 f = 0 //Frames
 
@@ -29,7 +30,7 @@ for(i = 0; i < numRays; i++) {
 }
 
 enum State {
-	Patrol, Chase, Alarm, Alert
+	Patrol, Chase, Alarm, Alert, Stop
 };
 
 state = State.Patrol;

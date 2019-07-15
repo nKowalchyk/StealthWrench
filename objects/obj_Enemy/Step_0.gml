@@ -26,15 +26,25 @@ else if(state == State.Chase) {
 
 	state = State.Patrol;
 }
+else if(state == State.Stop) {
+	if(pauseTime >= 0) {
+		pauseTime--;	
+	}
+	else {
+		state = State.Patrol;	
+	}
+}
 
 if(lastX != x || lastY != y) {
 	direction = point_direction(lastX, lastY, x, y);	
 }
 
 waypointInst = instance_nearest(x, y, obj_Waypoint);
-if(func_dist(x, y, waypointInst.x, waypointInst.y) < 5) {
+if(func_dist(x, y, waypointInst.x, waypointInst.y) < 5 && waypointInst.x == targetPosX && waypointInst.y == targetPosY) {
 	targetPosX = waypointInst.targetX;
 	targetPosY = waypointInst.targetY;
+	pauseTime = waypointInst.stopTime;
+	state = State.Stop;
 }
 //raytracing
 for(i = 0; i < ds_list_size(rays); i++) {
