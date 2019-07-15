@@ -183,6 +183,14 @@
             }
         },
         {
+            "Key": "51b5de11-9ccc-4032-a5cd-9e9fb4587e76",
+            "Value": {
+                "id": "93b32347-5ff4-4f36-9330-a900b2d9dd74",
+                "resourcePath": "objects\\obj_lightParent\\obj_lightParent.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "559c15e4-d4e6-4c02-82fc-adc74e4b20b9",
             "Value": {
                 "id": "43d0dc96-a99e-444a-830e-cdc80ac7298f",
@@ -332,6 +340,14 @@
                 "id": "368352da-2360-4c7e-8aec-bfa31e9ee7b1",
                 "resourcePath": "scripts\\func_rayBoxCast\\func_rayBoxCast.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "a73e7458-0f83-4769-bc72-037467e28deb",
+            "Value": {
+                "id": "703f637c-9a7a-40b0-85a4-10385ff4a5f2",
+                "resourcePath": "objects\\obj_Darkness\\obj_Darkness.yy",
+                "resourceType": "GMObject"
             }
         },
         {
