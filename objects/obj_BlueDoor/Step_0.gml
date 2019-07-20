@@ -2,6 +2,9 @@
 // You can write your code in this editor
 if global.blue
 {
-	instance_create_depth(x, y, depth, obj_door)
+	newDoor = instance_create_depth(x, y, depth, obj_door)
+	
+	newDoor.image_angle = image_angle;
+	
 	instance_destroy()
 }
