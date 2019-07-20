@@ -1,0 +1,1 @@
+content = "A guard!\nWatch his patrol carefully\nand avoid detection!"

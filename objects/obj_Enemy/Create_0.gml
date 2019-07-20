@@ -11,9 +11,11 @@ viewDistance = 250;
 viewRange = 60;
 pauseTime = 0;
 searchRadius = 200;
-searchTimeBase = 150;
+searchTimeBase = 200;
 searchTimer = 0;
 
+
+sound = false;
 f = 0 //Frames
 
 attackTimerBase = 100;

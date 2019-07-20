@@ -1,0 +1,1 @@
+content = "Puzzle Bolts keep black doors locked.\nPress Z to puzzle!"

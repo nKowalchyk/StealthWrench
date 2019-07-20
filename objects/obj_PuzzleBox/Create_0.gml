@@ -20,8 +20,8 @@ for(i=0;i<3;i++){
 	colorRule[i] = 0;	
 }
 
-areaWidth = room_width/2;
-areaHeight = room_height/2;
+areaWidth = view_wport[0]/2;
+areaHeight = view_hport[0]/2;
 areaX = 0;
 areaY = 0;
 borderWidth = 0.02;

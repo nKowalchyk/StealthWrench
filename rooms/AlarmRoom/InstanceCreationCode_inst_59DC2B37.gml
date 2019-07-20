@@ -1,0 +1,1 @@
+content = "This is a Load Bearing Screw.\nPress Z repeatedly to unscrew it\nthen return to the elevator!"

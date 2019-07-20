@@ -61,6 +61,7 @@ if primary and not global.focus
 		if point_distance(target.x, target.y, x, y) < range
 		{
 			target.progress++
+			audio_play_sound(snd_Wrench, 1, false)
 		
 		}
 	}

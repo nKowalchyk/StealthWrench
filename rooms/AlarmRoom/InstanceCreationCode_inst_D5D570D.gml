@@ -1,0 +1,1 @@
+content = "Press Z to open and close\nwhite, unlocked doors."

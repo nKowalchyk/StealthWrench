@@ -1,0 +1,1 @@
+content = "Time still passes when puzzling.\nPress Escape at any time to leave a puzzle.\nIf you die in a puzzle, you die for real!"

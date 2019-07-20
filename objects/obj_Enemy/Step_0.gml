@@ -14,7 +14,7 @@ if f > 600
 //pathfinding
 if(state == State.Patrol) {
 	if(mp_potential_step(targetPosX, targetPosY, velocity, 1)) {
-		
+		sound = false
 	}	
 }
 else if(state == State.Chase) {
@@ -61,6 +61,11 @@ for(i = 0; i < ds_list_size(rays); i++) {
 	if(rays[| i].collisionObj != noone) {
 		if(rays[| i].collisionObj.object_index == obj_Character) {
 			state = State.Chase;
+			if not sound
+			{
+				sound = true
+				audio_play_sound(snd_Robot, 2, false)
+			}
 			searchTimer = searchTimeBase;
 		}	
 	}

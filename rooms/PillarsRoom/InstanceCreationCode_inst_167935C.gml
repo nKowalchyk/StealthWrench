@@ -1,0 +1,1 @@
+content = "Red and Blue Doors will unlock when\nyou get their respective keycards."
