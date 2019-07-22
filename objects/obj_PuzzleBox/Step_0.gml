@@ -1,5 +1,9 @@
 //changed
 
+if goal.target == goal
+{
+	instance_destroy();	
+}
 
 if left
 {

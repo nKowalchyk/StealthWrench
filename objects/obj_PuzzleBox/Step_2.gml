@@ -30,6 +30,7 @@ for(i = 0; i < 3; i++){
 		if(count == 9){
 			show_debug_message("A WINNER IS YOU");
 			goal.target.open = true;
+			goal.target = goal;
 			instance_destroy()
 		}
 	
